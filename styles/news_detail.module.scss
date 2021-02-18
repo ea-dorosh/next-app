@@ -1,0 +1,29 @@
+.newsDetail {
+  padding: 40px 60px;
+
+  &__link {
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: darkblue;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .65;
+    }
+  }
+
+  &__title {
+    color: #000000;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 40px 0;
+  }
+
+  &__item {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+

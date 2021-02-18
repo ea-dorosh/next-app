@@ -1,0 +1,39 @@
+.navigation {
+  padding: 40px 60px;
+  background: darkslateblue;
+  display: flex;
+  align-items: center;
+
+  &__title {
+    margin: 0;
+    color: cornflowerblue;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 3px 0 0 0;
+    margin: 0 0 0 70px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  &__item {
+    margin-right: 40px;
+
+    a {
+      color: whitesmoke;
+      text-decoration: none;
+      font-weight: bold;
+
+      &:hover {
+        opacity: .65;
+      }
+    }
+  }
+}
+
+

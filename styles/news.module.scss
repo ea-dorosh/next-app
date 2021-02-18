@@ -1,0 +1,39 @@
+.news {
+  padding: 40px 60px;
+
+  &__title {
+    color: #000000;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 40px;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3px 0 0 0;
+    margin: 0;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  &__item {
+    margin-right: 40px;
+
+    a {
+      color: darkblue;
+      text-decoration: underline;
+      font-weight: bold;
+      cursor: pointer;
+
+      &:hover {
+        opacity: .65;
+      }
+    }
+  }
+}
+
+
